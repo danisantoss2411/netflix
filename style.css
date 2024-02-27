@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    border-radius: 30px;
+    background: linear-gradient(119deg, #98080F 0%, #0E0001 100%);
+}
+
+.conteiner1{
+    width: 1280px;
+    height: 720px;
+    margin: 42px 120px 0px;
+}
+
+.img-fundo{
+    width: 1200px;
+    height: 600px;
+    border-radius: 30px;
+}
+
+.conteiner-latetal{
+    position: relative;
+    bottom: 604px;
+    width: 300px;
+    height: 600px;
+    background: rgba(12, 12, 12, 0.80);
+    border-radius: 30px 0px 0px 30px;
+}
+
+.netflix{
+    width: 180px;
+    height: 48.182px;
+    margin: 40px 60px 0px;
+}
+
+.img-perfil{
+    width: 148px;
+    height: 147px;
+    border-radius: 597.5px;
+    margin: 16px 72px 0px 72px;
+}
+
+.contas{
+    position: relative;
+    bottom: 130px;
+    left: 200px;
+    width: 24px;
+    height: 24px;
+    border-radius: 18px;
+    background: #E50914;
+    fill: #E50914;
+    filter: drop-shadow(0px 0px 30px #E50914);
+}
+
+.contas:hover{
+    transform: scale(1.20);
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+span{
+    margin: 10px 0px 0px 7px;
+    font-size: 13px;
+    font-weight: 100;
+    color: white;
+    cursor: pointer;
+}
+
+.topicos{
+    margin: 50px 50px 305px 0px;
+    text-align: center;
+}
+
+li{
+  display:block;
+  padding: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(190, 162, 162, 0.801);
+  opacity: 0.6;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.20);
+    transition: 0.5s;
+}
+
+.config{
+    position: relative;
+    bottom: 230px;
+    display:inline;
+}
+
+.span1{
+    position: relative;
+    bottom: 40px;
+    margin-left: 100px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(190, 162, 162, 0.801);
+    opacity: 0.6;
+}
+
+.span1:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.20);
+    transition: 0.5s;
+}
+
+.brasil{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    right: 94px;
+    border-radius: 8px;
+    
+}
+
+.span2{
+    position: relative;
+    bottom: 3px;
+    right: 96px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.filmes{
+    width:600px;
+}
+
+h3{
+    position: relative;
+    bottom: 803px;
+    left: 360px;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.logo-netflix{
+    position: relative;
+    bottom: 748px;
+    left: 320px;
+    width: 21px;
+    height: 28px;
+}
+
+.pesquisa{
+    position: relative;
+    bottom: 754px;
+    left: 1100px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.pesquisa:hover{
+    opacity: 0.5;
+}
+
+h1{
+    position: relative;
+    bottom: 850px;
+    left: 316px;
+    padding: 18px 0px;
+    font-size: 62px;
+    font-weight: 900;
+    color: white;
+}
+
+p{
+    position: relative;
+    bottom: 900px;
+    left: 320px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #B7B7B7;
+}
+
+button{
+    display:inline-flex;
+    position: relative;
+    bottom: 900px;
+    left: 320px;
+    border-radius: 50px;
+    background: #E50914;
+    box-shadow: 0px 4px 30px 0px rgba(229, 9, 20, 0.50);
+    border: none;
+    padding: 8px 30px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #cc2a33;
+}
+
+.btn{
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tendencia{
+    position: relative;
+    bottom: 800px;
+    left: 320px;
+}
+
+.post{
+    width: 240px;
+    height: 110px;
+    display: flex;
+    position: relative;
+    bottom: 800px;
+    left: 322px;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.img1:hover{
+    transform: scale(1.10);
+    transition: .6s;
+}
